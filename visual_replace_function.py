@@ -11,6 +11,7 @@ find_text  = split_values[1]
 replace_text = split_values[2]
 case_switch = int(split_values[3])
 
-if replace_cancel = False:
+if replace_cancel = True:
     workflow.stop()
 else:
+    
